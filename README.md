@@ -10,7 +10,7 @@
 2、全局配置（仓库用户名及邮件地址）：
      git config --global user.name “yourname”
      git config --global user.email "youremail address"
-     执行完成后，将在~目录下生成一个隐藏文件.gitconfig,内容如下：
+     执行完成后，将在~目录下生成一个隐藏文件.gitconfig,
      [user]
          name = yourname
          email = youremail address
