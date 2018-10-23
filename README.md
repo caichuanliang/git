@@ -1,4 +1,4 @@
-﻿# git
+# git
 
 1、安装下载git。
     （1）Linux 安装方法：sudo apt-get install git
@@ -156,4 +156,6 @@
 6、自建git服务器管理工具。
     (1)公钥管理。Gitosis
     (2)权限管理。Gitolite
-
+7、推荐网站。
+    github.com
+    git-scm.com
