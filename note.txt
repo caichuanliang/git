@@ -151,7 +151,11 @@
     (4)初始化仓库  
         在需要作为服务器目录的位置，执行：  
         git init --bare sample.git  
-    (5)设置禁用ssh登录。    
+    (5)设置仓库属主为新建的git用户
+        sudo chown -R git:git sample.git
+    (6)设置禁用ssh登录。
+    (7)连接自定义git服务器仓库。
+        git remote add 本地名称 git@localhost:创建版本库的目录/sample.git    
 6、自建git服务器管理工具。  
     (1)公钥管理。Gitosis  
     (2)权限管理。Gitolite  
