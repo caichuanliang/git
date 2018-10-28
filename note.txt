@@ -140,7 +140,10 @@
                 删除远程库：git remote rm origin  
                 设置不同的远程库：  
                 git remote add github或别的名字 git@github.com:yourname/yourrepository.git  
-                git remote add gitee或别的名字 git@gitee.com:yourname/yourrepository.git  
+                git remote add gitee或别的名字 git@gitee.com:yourname/yourrepository.git 
+
+            7)删除远程分支
+                git push 远程命名 --delete 远程库分支，例如：git push origin --delete dev。 
 
 5、搭建git服务器(高级主题)  
     在macos上四步创建git服务器。  
